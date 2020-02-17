@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ConsoleApp3
 {
@@ -10,7 +11,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            StreamReader sr = new StreamReader("auto.csv");
         }
     }
 }
